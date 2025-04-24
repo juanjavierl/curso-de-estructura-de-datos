@@ -12,5 +12,11 @@ diccionario['clave1'] = 'juan david'
 del diccionario['cursos']
 print(len(diccionario))
 print(diccionario)
-#print(diccionario['numeros']['dos'])
 
+print(diccionario.values())
+
+""" for c, v in diccionario.items():
+    print(c, " => ", v) """
+
+for i in diccionario:
+    print(i, " => ", diccionario[i])
